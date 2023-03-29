@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		ul{
+			background-color: black;
+			position: relative;
+			margin-bottom: 0px;
+			
+		}
+		 li{
+		 	list-style-type: none;
+			
+			display: inline;
+			margin: 0px;
+			padding: 0px;
+			
+
+		}
+		li a{
+			display: inline-block;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			
+
+		}
+		li a:hover{
+			background-color: green;
+			color: blue;
+		}
+		.active{
+			background-color: aqua;
+		}
+		.h{
+			position: absolute;
+			right: 10px;
+		}
+		input{
+			border-radius: 5px 0px 5px 0px;
+			border-color: maroon;
+			border-bottom: dashed groove;
+		}
+		label{
+			font-size: 15px;
+			font-family: 'times new roman';
+		}
+
+
+
+
+		fieldset{
+			background-color: grey;
+			text-align: center;
+			width: 400px;
+			height: 210px;
+			border-radius: 20px;
+			border-color: darkgreen;
+		}
+		legend{background-color: ghostwhite;
+			color: darkkhaki;
+			font-family: algerian;
+			font-size: 30px;
+		}
+		label{
+			border-color: yellow;
+			border-radius: 5px 0px 5px 0px;
+			
+		}
+		.sb{
+			background-color: gold;
+			border-radius: 5px;
+
+		}
+		.qw{
+			background-color: aqua;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+	<li><a href="ass6.html" >home</a></li>
+	<li><a href="example.html">more</a></li>
+	<li><a class="active" href="inf1.html">form</a></li>
+	<li><a class="h" href="third.html">contact</a></li>
+</ul>
+
+<center>
+<h1>If you want to continue please! fill this form</h1>
+<form>
+	<fieldset>
+		<legend>fill this form</legend><br><br>
+		<label>Name</label>
+		<input type="text" name="username" placeholder="Enter your name" required="required"><br><br>
+		<label>email</label>
+		<input type="email" name="email" placeholder="Enter your email" required="required"><br><br>
+		<label>Password</label>
+		<input type="Password" name="Password" placeholder="Enter your Password" required="required"><br><br>
+		<input class="qw" type="reset" name="reset" value="reset">
+		<input class="sb" type="submit" name="submit" value="submit">
+	</fieldset>
+</form>
+</center>
+</body>
+</html>
